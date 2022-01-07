@@ -74,8 +74,8 @@
         </header>
         <div class="row mt-4 mt-md-3 pt-md-3 pb-md-3 main-section-grid">
           <div class="col-md-6 col-xs-12 d-flex align-items-center">
-            <main class="px-3">
-              <h1 class="h2 text-white animate__animated animate__bounce">Cover your page</h1>
+            <main class="px-3" style="position: relative;">
+              <h1 class="h2 text-white animate__animated animate__slideInDown">Cover your page</h1>
               <p class="para-style">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Quaerat sunt dolore ipsa, a quibusdam, enim officia eveniet
@@ -90,6 +90,8 @@
                   fw-bold
                   border-white
                   text-dark
+                  animate__animated
+                  animate__slideInUp
                 "
                 target="_blank"
                 >Learn more</a
@@ -161,7 +163,7 @@
         "
       >
         <div class="row">
-          <div class="animate__animated animate__bounceInLeft animate__slow col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
+          <div class="animate__animated animate__slideInLeft animate__slower col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
             <div class="icon-box">
               <i class="bx bxl-dribbble"></i>
               <h5 class="pt-1">Card title</h5>
@@ -171,7 +173,7 @@
               </p>
             </div>
           </div>
-          <div class="animate__animated animate__bounceInLeft animate__slower col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
+          <div class="animate__animated animate__slideInLeft animate__slow col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
             <div class="icon-box">
               <i class="bx bx-file"></i>
               <h5 class="pt-1">Card title</h5>
@@ -181,7 +183,7 @@
               </p>
             </div>
           </div>
-          <div class="animate__animated animate__bounceInRight col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
+          <div class="animate__animated animate__slideInRight animate__slow col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
             <div class="icon-box">
               <i class="bx bx-tachometer"></i>
               <h5 class="pt-1">Card title</h5>
@@ -191,7 +193,7 @@
               </p>
             </div>
           </div>
-          <div class="animate__animated animate__bounceInRight col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
+          <div class="animate__animated animate__slideInRight animate__slower col-md-6 col-lg-3 mt-3 d-flex align-items-stretch">
             <div class="icon-box">
               <i class="bx bx-world"></i>
               <h5 class="pt-1">Card title</h5>
@@ -269,7 +271,21 @@
         </div>
       </div>
     </section>
-
+    <footer id="footer">
+      <p>Copyright © 2021 | Company name</p>
+      <div class="social-icon">
+        <a href="#" target="_blank">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i> </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-viber"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
     <script>
       $(document).ready(function () {
         $(".owl-carousel").owlCarousel({
